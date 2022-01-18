@@ -1,0 +1,33 @@
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    color: $secondary-text-color;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    &--visually-hidden {
+      position: absolute;
+      clip: rect(0 0 0 0);
+    }
+  }
+
+  &--background {
+    background-color: #f5f4fa;
+  }
+
+  &--top {
+    padding-bottom: 0;
+  }
+}
