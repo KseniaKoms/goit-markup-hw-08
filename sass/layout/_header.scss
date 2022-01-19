@@ -9,10 +9,19 @@
   }
 }
 
+.nav-box {
+  &__list {
+    display: none;
+  }
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 1200px) {
+    justify-content: start;
+  }
 }
 
 .logotype {
@@ -21,15 +30,9 @@
   &__color {
     color: $accent-color;
   }
-
   @media screen and (min-width: 1200px) {
     @include logo(#000, 26px);
-  }
-}
-
-.nav-box {
-  &__list {
-    display: none;
+    margin-right: 93px;
   }
 }
 
@@ -105,6 +108,7 @@
   .contacts-box {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 
     &__item {
       &:first-child {
