@@ -4,8 +4,12 @@
   margin-bottom: 40px;
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
   }
 
   &__button {
@@ -44,10 +48,6 @@
     }
     &:nth-child(-n + 3) {
       margin-bottom: 15px;
-
-      @media screen and (min-width: 642px) {
-        margin-bottom: 0;
-      }
     }
   }
 }
