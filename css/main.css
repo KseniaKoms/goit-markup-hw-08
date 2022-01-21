@@ -1468,7 +1468,7 @@ img {
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .works__item:first-child .works__link {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1483,6 +1483,6 @@ img {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    height: 146px;
+    height: 144px;
   }
 }/*# sourceMappingURL=main.css.map */

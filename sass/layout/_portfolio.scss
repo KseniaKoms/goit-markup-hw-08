@@ -96,7 +96,7 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .works__item:first-child .works__link {
     display: flex;
     flex-direction: column;
@@ -104,6 +104,6 @@
 
   .works__item:first-child .works__description {
     flex-grow: 1;
-    height: 146px;
+    height: 144px;
   }
 }
