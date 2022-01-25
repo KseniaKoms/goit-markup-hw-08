@@ -183,6 +183,7 @@
 .form {
   &__checkbox-label {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 30px;
 
@@ -225,10 +226,6 @@
     height: 15px;
     border: 2px solid $secondary-text-color;
     border-radius: 2px;
-
-    @media screen and (min-width: 320px) and (max-width: 375px) {
-      width: 19px;
-    }
 
     .form__checkbox-input:checked + & {
       background-image: url(../images/cheked-icon.svg);

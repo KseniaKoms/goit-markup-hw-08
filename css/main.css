@@ -1052,6 +1052,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1094,11 +1096,6 @@ img {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
-}
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .form__checkbox-icon {
-    width: 19px;
-  }
 }
 .form__checkbox-input:checked + .form__checkbox-icon {
   background-image: url(../images/cheked-icon.svg);
